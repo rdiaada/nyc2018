@@ -1,250 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Coderthemes">
-
-    <!-- Favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Site Title -->
-    <title>Viaje a New York - Mapa</title>
-
-    <!-- Google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Animate -->
-    <link href="css/animate.css" rel="stylesheet">
-    
-    <!-- Icon-font -->
-    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Color css -->
-    <link href="css/colors/default.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111930879-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-111930879-1');
-      </script>
-    
-  </head>
+<head>
+<div data-include="components/head"></div>
+</head>
 
 <body data-spy="scroll" data-target="#navbar-menu">
 
-  <div class="navbar navbar-custom navbar-fixed-top sticky" role="navigation">
-      <div class="container">
+	<div data-include="components/navbar"></div>
 
-        <!-- Navbar-header -->
-        <div class="navbar-header">
-          <!-- Responsive menu button -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="zmdi zmdi-menu"></i>
-          </button>
+	<section class="interiorpage">
+		<!-- <div class="bg-overlay"></div> -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
 
-          <!-- LOGO -->
-          <a class="navbar-brand logo" href="index.html">
-            <i class="zmdi zmdi-navigation"></i> <span>Viaje a New York</span>
-          </a>
+					<div class="interiorpage-wrapper text-center">
+						<h2 class="animated fadeInDown wow" data-wow-delay=".1s">
+							El <span class="text-colored">mapa</span> de nuestro viaje
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        </div>
-        <!-- end navbar-header -->
+	<section class="contact-page">
 
-        <!-- menu -->
-        <div class="navbar-collapse collapse" id="navbar-menu">
+		<div class="container">
 
-          <!-- Navbar left -->
-          <ul class="nav navbar-nav nav-custom-left">
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="index.html#team">Equipo</a>
-            </li>
-            <li>
-              <a href="index.html#features">Features</a>
-            </li>
-            <li>
-              <a href="index.html#pricing">Plans</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" data-toggle="dropdown">
-                Outlets
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu arrow">
-                <li><a href="index.html#outlets-inside-city" style="background-color: white; color: #858585">En la ciudad</a></li>
-                <li><a href="index.html#outlets-outside-city" style="background-color: white; color: #858585">Fuera de la ciudad</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="index.html#faq">FAQ</a>
-            </li>
-            <li class="active">
-              <a href="map.html">Mapa</a>
-            </li>
-            <li>
-              <a href="blog.html">Blog</a>
-            </li>
-          </ul>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<div class="title-box">
+						<p class="title-alt">Hotel</p>
+						<h3 class="fadeIn animated wow" data-wow-delay=".1s">Row NYC</h3>
+						<div class="border"></div>
+					</div>
+				</div>
+			</div>
 
-        </div>
-        <!--/Menu -->
-      </div>
-      <!-- end container -->
-  </div>
-  <!-- End navbar-custom -->
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="contact-detail-box">
+						<i class="zmdi zmdi-layers zmdi-hc-3x text-colored"></i>
+						<h4>Localización</h4>
+						<p>
+							<a href="https://goo.gl/maps/7MNpWkCQxwB2" target="_blank">Acceso
+								al mapa</a>
+						</p>
+					</div>
+				</div>
 
- 
+				<div class="col-sm-4">
+					<div class="contact-detail-box">
+						<i class="zmdi zmdi-pin zmdi-hc-3x"></i>
+						<h4>Dirección</h4>
 
+						<address>
+							700 8th Ave, New York,<br> NY 10036, EE. UU.<br>
+						</address>
+					</div>
+				</div>
 
-  <!-- HOME -->
-  <section class="home">
-    <!-- <div class="bg-overlay"></div> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
+				<div class="col-sm-4">
+					<div class="contact-detail-box">
+						<i class="zmdi zmdi-headset-mic zmdi-hc-3x text-colored"></i>
+						<h4>Teléfono</h4>
 
-          <div class="home-wrapper home-wrapper-sm text-center">
-            <h2 class="animated fadeInDown wow" data-wow-delay=".1s">
-              El <span class="text-colored">mapa</span> de nuestro viaje
-            </h2>
-          </div><!-- home wrapper -->
-
-        </div> <!-- end col -->
-      </div> <!-- end row -->
-    </div> <!-- end container -->
-  </section>
-  <!-- END HOME -->
+						<p>Número de contacto</p>
+						<h4 class="text-muted">+1 212-869-3600</h4>
+					</div>
+				</div>
+			</div>
 
 
-  
- 
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="contact-map">
+						<iframe
+							src="https://www.google.com/maps/d/u/1/embed?mid=1Edn1MZGJhM2KNV3rp_kqAj_nRUe9yRSj"
+							frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+							style="width: 100%; height: 800px;"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-  <!-- CONTACT -->
+	<!-- js placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
 
-  <section class="section contact-page">
-
-    <div class="container">
-
-
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <div class="title-box">
-            <p class="title-alt">Hotel</p>
-            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Row NYC</h3>
-            <div class="border"></div>
-          </div>
-        </div> 
-      </div> <!-- end row -->
-
-      <div class="row text-center">
-
-        <div class="col-sm-4">
-          <div class="contact-detail-box">
-            <i class="zmdi zmdi-layers zmdi-hc-3x text-colored"></i>
-            <h4>Localización</h4>
-
-            <p><a href="https://goo.gl/maps/7MNpWkCQxwB2" target="_blank">Acceso al mapa</a></p>
-          </div>
-        </div><!-- end col -->
-
-        <div class="col-sm-4">
-          <div class="contact-detail-box">
-            <i class="zmdi zmdi-pin zmdi-hc-3x"></i>
-            <h4>Dirección</h4>
-
-            <address>
-            700 8th Ave, New York,<br>
-            NY 10036, EE. UU.<br>
-          </address>
-          </div>
-        </div><!-- end col -->
-
-        <div class="col-sm-4">
-          <div class="contact-detail-box">
-            <i class="zmdi zmdi-headset-mic zmdi-hc-3x text-colored"></i>
-            <h4>Teléfono</h4>
-
-            <p>Número de contacto</p>
-            <h4 class="text-muted">+1 212-869-3600</h4>
-          </div>
-        </div><!-- end col -->
-
-      </div>
-      <!-- end row -->
-
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-map">
-            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Edn1MZGJhM2KNV3rp_kqAj_nRUe9yRSj" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 800px;"></iframe>
-          </div>
-        </div><!-- end col -->
-      </div> <!-- end row -->
-          
-    </div> <!-- end Container -->
-  </section>
-
-  <!--END Contact -->
-
-
-  
-  <!-- FOOTER -->
-  <footer class="section bg-gray footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="footer-alt">
-            <p class="pull-right text-muted m-b-0">2018 © </p>
-            <a class="navbar-brand logo" href="index.html">
-            <i class="zmdi zmdi-navigation"></i> <span>Viaje a New York</span>
-          </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- END FOOTER -->
-
-
-  <!-- Back to top -->
-  <a href="#" class="back-to-top"> <i class="zmdi zmdi-chevron-up"> </i> </a>
-
-
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Jquery easing -->                                                      
-    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!--sticky header-->
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        
-    <!--common script for all pages-->
-    <script src="js/jquery.app.js"></script>
-    
-  </body>
+	<script>
+		$(function() {
+			var includes = $('[data-include]');
+			jQuery.each(includes, function() {
+				var file = 'html/' + $(this).data('include') + '.html';
+				$(this).load(file);
+			});
+		});
+	</script>
+</body>
 </html>

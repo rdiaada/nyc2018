@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<div data-include="components/head"></div>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu">
+
+	<div data-include="components/navbar"></div>
+
+	<section class="interiorpage">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="interiorpage-wrapper text-center">
+						<h2 class="animated fadeInDown wow" data-wow-delay=".1s">
+							¿Cómo <span class="text-colored">pagar con tarjeta</span> en
+							Nueva York?
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="blog-detail">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="blog-detail-box">
+
+						<p class="sub-title animated fadeInDown wow" data-wow-delay=".3s">Lorem
+							Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard dummy text
+							ever since the 1500s, when an unknown printer took a galley of
+							type and scrambled it to make a type specimen book. It has
+							survived not only five centuries, but also the leap into
+							electronic typesetting, remaining essentially unchanged. It was
+							popularised in the 1960s with the release of Letraset sheets
+							containing Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including versions of
+							Lorem Ipsum.</p>
+
+						<h4 class="page-header">Printer took a galley of type and
+							scrambled it to make a type specimen book</h4>
+
+						<p class="sub-title animated fadeInDown wow" data-wow-delay=".3s">Lorem
+							Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry's standard dummy text
+							ever since the 1500s, when an unknown printer took a galley of
+							type and scrambled it to make a type specimen book. It has
+							survived not only five centuries, but also the leap into
+							electronic typesetting, remaining essentially unchanged. It was
+							popularised in the 1960s with the release of Letraset sheets
+							containing Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including versions of
+							Lorem Ipsum.</p>
+
+						<div class="text-center">
+							<p class="sub-tt animated fadeInDown wow" data-wow-delay=".3s">"Lorem
+								Ipsum is simply dummy text of the printing and typesetting
+								industry. Lorem Ipsum has been the industry's standard dummy
+								text ever since the 1500s, when an unknown printer took a galley
+								of type and scrambled it to make a type specimen book."</p>
+						</div>
+
+						<blockquote class="custom-blockquote blockquote-reverse m-t-30">
+							<p>When an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. It has survived not
+								only five centuries.</p>
+							<footer>
+								Someone famous in <cite title="Source Title">Source Title</cite>
+							</footer>
+						</blockquote>
+					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<div data-include="components/footer"></div>
+	<script src="js/jquery.js"></script>
+
+	<script>
+		$(function() {
+			var includes = $('[data-include]');
+			jQuery.each(includes, function() {
+				var file = 'html/' + $(this).data('include') + '.html';
+				$(this).load(file);
+			});
+		});
+	</script>
+</body>
+</html>

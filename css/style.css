@@ -733,6 +733,16 @@ iframe {
 }
 
 
+/* ======= Header not home pages =======*/
+.interiorpage {
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+
+.interiorpage-wrapper {
+	padding: 130px 0px 0px 0px
+}
+
 /*======= Footer =======*/
 
 .footer {
@@ -893,6 +903,7 @@ iframe {
 
 .blog-section {
   padding-bottom: 30px;
+  padding-top: 50px;
 }
 .blog-post{
   margin-bottom: 30px;
